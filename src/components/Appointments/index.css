@@ -1,0 +1,207 @@
+/* Write your CSS here */
+
+@media screen and (max-width: 768px) {
+  .bg-card {
+    background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+    background-size: cover;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .Appointment-card {
+    background-color: #ffffff;
+    width: 90vw;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+  }
+  .main-heading {
+    color: #171f46;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .add-appointment-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .forms {
+    margin-top: 20px;
+  }
+  .title-label {
+    color: #b5b7c4;
+    font-size: 17px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .input-text {
+    height: 30px;
+    width: 250px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    outline: none;
+    border: 1px solid #b5b7c4;
+  }
+  .input-date {
+    height: 30px;
+    width: 250px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    outline: none;
+    border: 1px solid #b5b7c4;
+  }
+  .add-btn {
+    border: none;
+    background-color: #8b5cf6;
+    color: #ffffff;
+    font-size: 13px;
+    height: 25px;
+    width: 50px;
+    border-radius: 10px;
+    outline: none;
+  }
+
+  .appointment-img {
+    display: none;
+  }
+
+  .line {
+    color: #b5b7c4;
+  }
+
+  .appointments-stared-card {
+    display: flex;
+    justify-content: space-between;
+  }
+  .appointments-heading {
+    color: #171f46;
+    font-size: 23px;
+  }
+  .starred-btn {
+    color: #9897f0;
+    border: 1px solid #9897f0;
+    height: 25px;
+    width: 80px;
+    font-size: 14px;
+    border-radius: 15px;
+    margin-top: 18px;
+    background-color: transparent;
+  }
+
+  .appointments-booked-card {
+    display: flex;
+    flex-direction: column;
+    margin-left: -50px;
+    margin-top: 20px;
+    list-style-type: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .bg-card {
+    background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+    background-size: cover;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .Appointment-card {
+    background-color: #ffffff;
+    width: 90vw;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 20px;
+  }
+  .main-heading {
+    color: #171f46;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 70px;
+  }
+  .add-appointment-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .forms {
+    margin-top: 50px;
+  }
+  .title-label {
+    color: #b5b7c4;
+    font-size: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .input-text {
+    height: 40px;
+    width: 300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    outline: none;
+    border: 1px solid #b5b7c4;
+  }
+  .input-date {
+    height: 40px;
+    width: 300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    outline: none;
+    border: 1px solid #b5b7c4;
+  }
+  .add-btn {
+    border: none;
+    background-color: #8b5cf6;
+    color: #ffffff;
+    font-size: 16px;
+    height: 30px;
+    width: 60px;
+    border-radius: 10px;
+    outline: none;
+  }
+
+  .appointment-img {
+    width: 250px;
+    height: 350px;
+    margin-top: 60px;
+  }
+
+  .line {
+    color: #b5b7c4;
+  }
+
+  .appointments-stared-card {
+    display: flex;
+    justify-content: space-between;
+  }
+  .appointments-heading {
+    color: #171f46;
+    font-size: 40px;
+  }
+  .starred-btn {
+    color: #9897f0;
+    border: 1px solid #9897f0;
+    height: 30px;
+    width: 100px;
+    border-radius: 15px;
+    margin-top: 40px;
+    background-color: transparent;
+  }
+
+  .appointments-booked-card {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -50px;
+    list-style-type: none;
+  }
+}

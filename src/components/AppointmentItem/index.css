@@ -1,0 +1,69 @@
+/* Write your CSS here */
+
+@media screen and (max-width: 768px) {
+  .booked-card {
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #b5b7c4;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 10px;
+  }
+  .name-star-card {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -20px;
+  }
+  .name-heading {
+    color: #171f46;
+    font-size: 20px;
+  }
+  .star-btn {
+    border: none;
+    background-color: transparent;
+  }
+  .star-img {
+    height: 20px;
+  }
+
+  .date-para {
+    color: #b5b7c4;
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .booked-card {
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #b5b7c4;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 10px;
+  }
+  .name-star-card {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -20px;
+  }
+  .name-heading {
+    color: #171f46;
+    font-size: 22px;
+  }
+  .star-btn {
+    border: none;
+    background-color: transparent;
+  }
+  .star-img {
+    height: 30px;
+  }
+
+  .date-para {
+    color: #b5b7c4;
+    font-size: 15px;
+  }
+}
